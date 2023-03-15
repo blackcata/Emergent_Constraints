@@ -7,7 +7,7 @@ Then, we cannot trust the future projections in ESMs. We need to reduce the unce
 The emergent constrain method can reduce the uncertainty of future projections by relationship between current state and future changes.
 For example, our paper represents the relationship between current nitrate climatology and future Arctic chlorophyll and productivity changes.
 
-This code's Arctic chlorophyll estimattions are published at the Earth's Future (AGU)
+This code's Arctic chlorophyll estimations are published at the Earth's Future (AGU)
 
 ### Title : Emergent Constraint for Future Decline in Arctic Phytoplankton Concentration
 
