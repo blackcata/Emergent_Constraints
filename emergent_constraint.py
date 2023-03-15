@@ -18,6 +18,14 @@ import xarray   as xr
 ######                 Emergent Constraint Method (Cox et al 2013)
 ##########################################################################################
 
+### Calculate Gaussian PDF using mean and std
+def calc_GAUSSIAN_PDF(mu,sigma,x):
+    
+    PDF = 1/np.sqrt(2*np.pi*sigma**2) * np.exp(-1/2*((x-mu)/sigma)**2)
+    
+    return PDF
+
+
 ### Calculate PDF of Constrained Projections
 def calc_PDF_EC(tmp_x,tmp_y,x,y,PDF_x):
     dx = x[1]-x[0]
