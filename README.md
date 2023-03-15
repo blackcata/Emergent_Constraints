@@ -1,4 +1,4 @@
-# Emergent_Constraints
+# Emergent Constraints
 Basic python code for calculating the emergent constraint method, which is based on the Cox et al., 2013. 
 The emergent constraint method is reducing the uncertainty or diversity of future projections in individual models by current states (Hall et al., 2019).
 Due to diverse equations and parameterizations, the errors are accumulated through time integration. 
